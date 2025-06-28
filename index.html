@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock | Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock-con">
+            <h1>Clock</h1>
+            <h1 id="clock">00:00:00</h1>
+        </div>
+        <div class="stop-watch">
+            <h1>Stop Watch</h1>
+            <div class="display-con">
+            <input type="text" value="00:00:00:00" disabled id="display">
+            </div>
+            <div class="btns">
+                <button id="start-btn" onclick="start()">Start</button>
+                <button id="stop-btn" onclick="stop()">Stop</button>
+                <button id="reset-btn" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div><i class="fa-solid fa-user"></i>   Rakesh Raj S</div>
+        <div><i class="fa-solid fa-envelope"></i>   rakeshraj12531@gmail.com</div>
+        <div><i class="fa-brands fa-linkedin"></i>   www.linkedin.com/in/rakesh531</div>
+    </div>
+    <script src="https://kit.fontawesome.com/313009947d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
